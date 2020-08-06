@@ -1,0 +1,15 @@
+{% sw_extends '@Framework/documents/invoice.html.twig' %}
+
+{% block document_side_info_customer_number %}
+    {{ parent() }}
+
+    {% if config.invoicePhoneNumber.DisplayPhoneNumber == true and billingAddress.phoneNumber %}
+        <tr>
+            <td>
+                {% if config.invoicePhoneNumber.DisplayLabel == true %}{{ "WeloPlatformInvoicePhoneNumber.documents.phone"|trans }}: {% endif %}{{ billingAddress.phoneNumber }}
+            </td>
+        </tr>
+    {% endif %}
+
+{% endblock %}
+

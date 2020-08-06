@@ -1,0 +1,45 @@
+{
+    "name": "welo/platform-invoice-phone-number",
+    "description": "E-Mail address on the invoice",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Web Loupe",
+            "homepage": "https://www.webloupe.de"
+        }
+    ],
+    "require": {
+        "shopware/core": "*",
+        "shopware/storefront": "*"
+    },
+    "extra": {
+        "shopware-plugin-class":"Welo\\PlatformInvoicePhoneNumber\\WeloPlatformInvoicePhoneNumber",
+        "plugin-icon": "src/Resources/config/plugin.png",
+        "copyright": "(c) by Web Loupe",
+        "label": {
+            "de-DE": "Telephonnummer auf Rechnungen",
+            "en-GB": "Phone number on the invoices",
+            "fr-FR": "Numéro de téléphone sur les factures"
+        },
+        "description": {
+            "de-DE": "Telephonnummer auf Rechnungen",
+            "en-GB": "Phone number on the invoices",
+            "fr-FR": "Numéro de téléphone sur les factures"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://www.webloupe.de",
+            "en-GB": "https://www.webloupe.de"
+        },
+        "supportLink": {
+            "de-DE": "https://www.webloupe.de",
+            "en-GB": "https://www.webloupe.de"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Welo\\PlatformInvoicePhoneNumber\\": "src"
+        }
+    }
+}

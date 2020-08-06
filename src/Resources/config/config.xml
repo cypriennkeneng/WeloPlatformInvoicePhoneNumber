@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Settings</title>
+        <title lang="de-DE">Konfiguration</title>
+        <title lang="fr-FR">Configuration</title>
+
+        <input-field type="bool">
+            <name>DisplayPhoneNumber</name>
+            <label lang="de-DE">Telephonnummer auf der Rechnung anzeigen?</label>
+            <label lang="en-GB">Show Phone number on the invoice?</label>
+            <label lang="fr-FR">Afficher le Numéro de téléphone  sur la facture?</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>DisplayLabel</name>
+            <label lang="de-DE">Label anzeigen?</label>
+            <label lang="en-GB">Show Label?</label>
+            <label lang="fr-FR">Afficher le label?</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+    </card>
+</config>
