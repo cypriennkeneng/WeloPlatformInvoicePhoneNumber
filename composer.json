@@ -1,13 +1,14 @@
 {
     "name": "welo/platform-invoice-phone-number",
-    "description": "E-Mail address on the invoice",
+    "description": "E-Mail address on the invoices",
     "version": "v1.0.0",
     "type": "shopware-platform-plugin",
     "license": "proprietary",
     "authors": [
         {
             "name": "Web Loupe",
-            "homepage": "https://www.webloupe.de"
+            "homepage": "https://www.webloupe.de",
+            "role": "Manufacturer"
         }
     ],
     "require": {
