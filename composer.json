@@ -40,7 +40,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Welo\\PlatformInvoicePhoneNumber\\": "src"
+            "Welo\\PlatformInvoicePhoneNumber\\": "src/"
         }
     }
 }
