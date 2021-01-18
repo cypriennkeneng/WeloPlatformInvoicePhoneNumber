@@ -19,6 +19,16 @@
             <tag name="document.generator" />
         </service>
 
+        <service id="welo.platform_invoice_phone_number.service.decorator.delivery_note_generator_decorated"
+                 class="Welo\PlatformInvoicePhoneNumber\Service\Decorator\DeliveryNoteGeneratorDecorated"
+                 decorates="Shopware\Core\Checkout\Document\DocumentGenerator\DeliveryNoteGenerator"
+                 public="false"
+        >
+            <argument type="service" id="welo.platform_invoice_phone_number.service.decorator.delivery_note_generator_decorated.inner"/>
+            <argument type="service" id="Welo\PlatformInvoicePhoneNumber\Service\Configuration"/>
+            <tag name="document.generator" />
+        </service>
+
         <service id="Welo\PlatformInvoicePhoneNumber\Resources\snippet\de_DE\SnippetFile_de_DE">
             <tag name="shopware.snippet.file" priority="100"/>
         </service>

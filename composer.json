@@ -1,7 +1,7 @@
 {
     "name": "welo/platform-invoice-phone-number",
-    "description": "E-Mail address on the invoices",
-    "version": "v1.0.0",
+    "description": "E-Mail address on the invoices and delivery notes",
+    "version": "v1.0.1",
     "type": "shopware-platform-plugin",
     "license": "proprietary",
     "authors": [
@@ -20,14 +20,14 @@
         "plugin-icon": "src/Resources/config/plugin.png",
         "copyright": "(c) by Web Loupe",
         "label": {
-            "de-DE": "Telephonnummer auf Rechnungen",
-            "en-GB": "Phone number on the invoices",
-            "fr-FR": "Numéro de téléphone sur les factures"
+            "de-DE": "Telephonnummer auf Rechnungen und Lieferscheine",
+            "en-GB": "Phone number on the invoices and delivery notes",
+            "fr-FR": "Numéro de téléphone sur les factures et les bons de livraisons"
         },
         "description": {
-            "de-DE": "Telephonnummer auf Rechnungen",
-            "en-GB": "Phone number on the invoices",
-            "fr-FR": "Numéro de téléphone sur les factures"
+            "de-DE": "Telephonnummer auf Rechnungen und Lieferscheine",
+            "en-GB": "Phone number on the invoices and delivery notes",
+            "fr-FR": "Numéro de téléphone sur les factures et les bons de livraisons"
         },
         "manufacturerLink": {
             "de-DE": "https://store.shopware.com/web-loupe.html",

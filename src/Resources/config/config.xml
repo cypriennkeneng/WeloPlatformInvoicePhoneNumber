@@ -16,6 +16,14 @@
         </input-field>
 
         <input-field type="bool">
+            <name>DisplayPhoneNumberDeliveryNote</name>
+            <label lang="de-DE">Telephonnummer auf Lieferschein anzeigen?</label>
+            <label lang="en-GB">Show Phone number on the delivery note?</label>
+            <label lang="fr-FR">Afficher le Numéro de téléphone  sur le bon de livraison?</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
             <name>DisplayLabel</name>
             <label lang="de-DE">Label anzeigen?</label>
             <label lang="en-GB">Show Label?</label>
